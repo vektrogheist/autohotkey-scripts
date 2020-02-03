@@ -3,6 +3,10 @@ Google Doc Creation:
 
 ```    
       -Hotkey when pressed anywhere opens a drop down menu for subsequent inputs:
+```
+
+```
+      
            
            super+cmd+G - Create New Google File
 
