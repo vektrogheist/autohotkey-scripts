@@ -8,7 +8,7 @@ Google Doc Creation:
 ```
       
            
-           super+cmd+G - Create New Google File
+           super+ctrl+G - Create New Google File
 
            _________________________          
           |                         |          
