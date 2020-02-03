@@ -72,8 +72,12 @@ AddFolder:
 Return
 
 ForgetFolder:
-    IniDelete, gmenu.Ini, gfolders, %gfcount%
-    IniDelete, gmenu.Ini, gfolderlabels, %gfcount%
+
+    IniRead, folderId, gmenu.Ini, gfolders, %A_ThisMenuItemPos%, 0
+
+
+    IniDelete, gmenu.Ini, gfolders, %A_ThisMenuItemPos%
+    IniDelete, gmenu.Ini, gfolderlabels, %A_ThisMenuItemPos%
 
     IniRead, gfcount, gmenu.Ini, gfcount, gfcount, 0
     gfcount--
