@@ -1,8 +1,10 @@
 Google Doc Creation:
-       ```
-       -Hotkey when pressed anywhere opens a drop down menu for subsequent inputs:
+
+
+```    
+      -Hotkey when pressed anywhere opens a drop down menu for subsequent inputs:
            
-           #+G - Create New Google File
+           super+cmd+G - Create New Google File
 
            _________________________          
           |                         |          
@@ -29,13 +31,11 @@ Google Doc Creation:
           |_________________________|  
     
       to specify document type to generate and if necessary which drive location to put it in, then opens a new document in chrome
-
-
-
+```
 
 
       -Forgetting saved Folders
-
+```
            _________________________          
           |                         |          
           |    *Open Gmail*         |          
@@ -57,9 +57,11 @@ Google Doc Creation:
           |     *Remove Folder*   |                               |
           |__\___\__\___\___\__\__| 2  *GDrive Folder Secondary*  |
                                   |_______________________________| 
+```
 
-          - Adding new Remembered folders
 
+        - Adding new Remembered folders
+```
            _________________________          
           |                         |          
           |    *Open Gmail*         |          
@@ -82,6 +84,8 @@ Google Doc Creation:
           |_______________________| [ 14hqYL813L9mkezZt2LqBYoxWtxjIvMoB ]  |
                                   |________________________________________| 
 
+```
+
 
      You can aquire the document id by opening the folder in GDrive and observing the url
 
@@ -91,6 +95,6 @@ Google Doc Creation:
 
 
     You will be able to assign a label to this folder on the following dialog.
-       ```
+
 
 
