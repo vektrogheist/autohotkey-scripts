@@ -8,56 +8,69 @@ psScript := "C:\Program Files\WindowsPowerShell\Modules\VirtualDesktop\1.1.0\Vir
 
 ;so far this only works if theyre already open change that
 
+#^F4::MsgBox Desktop deletion disabled
+
+#Numpad1::
 #1::
 Run, PowerShell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 1", ,Hide
 
 return
 
+
+#Numpad2::
 #2::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 2", ,Hide
 
 return
 
+
+#Numpad3::
 #3::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 3", ,Hide
 
 
 return
 
+
+#Numpad4::
 #4::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 4", ,Hide
 
 return
 
+#Numpad5::
 #5::
-
-
-desktop5 = Run, PowerShell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Get-Desktop -Index  5", ,Hide
+Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 5", ,Hide
 
 return
 
+#Numpad6::
 #6::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 6", ,Hide
 
 return
 
+#Numpad7::
 #7::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 7", ,Hide
 
 return
 
+#NumPad8::
 #8::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 8", ,Hide
 
 
 return
 
+#NumPad9::
 #9::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 9", ,Hide
 
 
 return
 
+#NumPad0::
 #0::
 Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Switch-Desktop -Desktop 0", ,Hide
 
