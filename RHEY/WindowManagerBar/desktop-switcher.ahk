@@ -69,7 +69,6 @@ GetDesktopCount() {
 
 GetCurrentDesktop() {
 	Run, powershell -ExecutionPolicy Bypass -WindowStyle Hidden -noProfile -nologo -Command "Get-DesktopIndex > %A_ScriptDir%\currentDesktop111.txt", ,Hide
-	Sleep 10
 	FileRead, var1111, %A_ScriptDir%\currentDesktop111.txt
 	return var1111
 }
